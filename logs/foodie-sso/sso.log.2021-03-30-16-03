@@ -1,0 +1,30 @@
+2021-03-30 16:03:49 INFO  Version:21 - HV000001: Hibernate Validator 6.0.16.Final
+2021-03-30 16:03:50 INFO  Application:50 - Starting Application on mysoul with PID 8246 (started by lixing in /home/lixing/IdeaProjects/foodie/architect-stage-3-distributed/1. 分布式会话与单点登录/foodie-dev)
+2021-03-30 16:03:50 INFO  Application:679 - The following profiles are active: dev
+2021-03-30 16:03:50 INFO  RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-30 16:03:50 INFO  RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-03-30 16:03:50 INFO  RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2021-03-30 16:03:50 WARN  ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+2021-03-30 16:03:50 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bd1bf78b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-30 16:03:50 INFO  TomcatWebServer:90 - Tomcat initialized with port(s): 8091 (http)
+2021-03-30 16:03:50 INFO  ContextLoader:296 - Root WebApplicationContext: initialization completed in 888 ms
+2021-03-30 16:03:51 INFO  ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-30 16:03:51 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-03-30 16:03:51 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-03-30 16:03:51 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-03-30 16:03:51 INFO  MapperCacheDisabler:83 - Clear EntityHelper entityTableMap cache.
+2021-03-30 16:03:52 ERROR LoggingFailureAnalysisReporter:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8091 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8091, or configure this application to listen on another port.
+
+2021-03-30 16:03:52 INFO  ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
